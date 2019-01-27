@@ -11,9 +11,8 @@ class StorePicker extends React.Component{
                 <button type="submit">Visit Store</button>
             </form>
             </div>
-        )
-        
+        );
     }
-    }
+    }   
 
 export default StorePicker;

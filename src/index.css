@@ -32,6 +32,10 @@ code {
   font-size: 1em;
   display: block;
   margin-bottom: 20px;
+  transition: padding 0.2s ease-in;
+}
+.shopformset input:focus{
+  padding:0.4em 1em;
 }
 .shopformset button{
   padding: 0.6em;
@@ -39,4 +43,24 @@ code {
   letter-spacing: 1px;
   background: lightblue;
   border: none;
+  transition: box-shadow 0.2s ease-in;
+}
+.shopformset button:hover{
+  box-shadow: inset 0px -32px 0px lightsalmon;
+}
+
+.menu{
+  padding: 1em;
+  border:0.1em dashed black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  justify-content: center;
+  align-items: center;
+}
+.header,.inventory,.order{
+  border:0.4em double black;
+}
+.header{
+}
+.inventory{
 }
