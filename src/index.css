@@ -6,9 +6,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #e9e9e9;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.shopformset{
+  max-width: 300px;
+  padding: 1em;
+  border:2px solid black;
+  margin: 10% auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(autofit,minmax(200px,1fr));
+  grid-gap: 40px;
+  justify-content: center;
+}
+.shopformset input{
+  background:transparent;
+  padding: 0.2em 1em;
+  border: 1px solid darkgray;
+  font-size: 1em;
+  display: block;
+  margin-bottom: 20px;
+}
+.shopformset button{
+  padding: 0.6em;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  background: lightblue;
+  border: none;
 }
