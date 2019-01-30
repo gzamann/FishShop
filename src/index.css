@@ -64,3 +64,23 @@ code {
 }
 .inventory{
 }
+
+.fish-edit input,select,textarea{
+  padding: 0.8em;
+  margin: 0.2em;
+  border-radius: 0.6em;
+  border: 1px solid #e9e9e9;
+}
+.fish-edit textarea{
+  height: 100px;
+  width: 80%;
+  display:block;
+}
+.fish-edit button{
+  padding: 0.6em;
+  margin:0.2em;
+  letter-spacing: 1px;
+  background: lightblue;
+  border: none;
+  display: block;
+}
