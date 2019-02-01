@@ -1,10 +1,11 @@
 import React from 'react';
 
-export default class AddFish extends React.Component{
+class AddFish extends React.Component{
+
 constructor(props){
-    super(props);
-    this.createFish = this.createFish.bind(this);
-}
+        super(props);
+        this.createFish = this.createFish.bind(this);
+    };
 
 nameRef = React.createRef();
 priceRef = React.createRef();
@@ -12,10 +13,9 @@ statusRef = React.createRef();
 descRef = React.createRef();
 imageRef = React.createRef();
 
-
     createFish = (event) => {
     event.preventDefault();
-    console.log(this.nameRef.value.value);
+    console.log(this.name.value.value);
 };
 
     render(){
@@ -34,3 +34,5 @@ imageRef = React.createRef();
         );
     }
 }
+
+export default AddFish;
