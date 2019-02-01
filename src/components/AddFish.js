@@ -7,11 +7,11 @@ constructor(props){
         this.createFish = this.createFish.bind(this);
     };
 
-name = React.createRef();
-price = React.createRef();
-status = React.createRef();
-desc = React.createRef();
-image = React.createRef();
+nameRef = React.createRef();
+priceRef = React.createRef();
+statusRef = React.createRef();
+descRef = React.createRef();
+imageRef = React.createRef();
 
     createFish = (event) => {
     event.preventDefault();
